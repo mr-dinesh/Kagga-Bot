@@ -1,0 +1,17 @@
+# Bot state and logs
+bot_state.json
+kagga_bot.log
+scraper_checkpoint.json
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets — never commit your token
+.env
+secrets.py

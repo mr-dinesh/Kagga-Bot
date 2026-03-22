@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ### 3. Create a Mastodon bot account
 
-1. Sign up on a Mastodon instance — [ioc.exchange](https://ioc.exchange) is recommended
+1. Sign up on a Mastodon instance — [ioc.exchange](https://mastodon.social) is recommended
 2. Go to **Settings → Edit Profile** → check ✅ *"This is a bot account"*
 3. Go to **Settings → Development → New Application**
 4. Name it `Kagga Bot`, enable scope `write:statuses` only
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 Edit `config.py`:
 
 ```python
-MASTODON_INSTANCE_URL = "https://ioc.exchange"
+MASTODON_INSTANCE_URL = "https://mastodon.social"
 MASTODON_ACCESS_TOKEN = "your_token_here"
 ```
 
